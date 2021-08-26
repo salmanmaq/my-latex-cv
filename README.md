@@ -1,12 +1,20 @@
 # My LaTeX CV
 
-This is my CV template designed in LaTeX. I implemented it since it is easy to edit and add new information.
+This is a modified version of [my-latex-cv](https://github.com/PrimozGodec/my-latex-cv) by [Primož Godec](https://github.com/PrimozGodec). The changes include:
+
+ 1. A Summary / Objective section
+ 2. Keywords for software stack used at jobs
+ 3. Thesis for educational degress
+ 4. Removed Date of Birth to include a personal website
+ 5. Other Skills section replaced by an Other Projects section
+ 6. Shortened the space between sections
+ 7. Shortened the page margins to 1 cm
 
 ### Compiling the CV
 
 There are two possible ways to edit and compile the CV. I suggest using the Overleaf.
 
-#### Use Overleaf online editor
+#### Use Overleaf online editor (Preferred)
 
 You can also use [Overleaf](https://www.overleaf.com/) online editor. You just open a new project and copy files from this repository there. Everything should work there just set the project's compiler to XeLaTeX.
 
