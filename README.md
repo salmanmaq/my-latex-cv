@@ -4,9 +4,9 @@ This is a modified version of [my-latex-cv](https://github.com/PrimozGodec/my-la
 
  1. A Summary / Objective section
  2. Keywords for software stack used at jobs
- 3. Thesis for educational degress
+ 3. Thesis for educational degrees
  4. Removed Date of Birth to include a personal website
- 5. Other Skills section replaced by an Other Projects section
+ 5. Other Skills section replaced by the Other Projects section
  6. Shortened the space between sections
  7. Shortened the page margins to 1 cm
 
