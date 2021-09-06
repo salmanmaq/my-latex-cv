@@ -13,6 +13,7 @@
 \RequirePackage[skins]{tcolorbox}
 \RequirePackage{listofitems}
 \RequirePackage{enumitem}
+\RequirePackage{hyperref}
 
 %% Page Settings
 \setlength\columnsep{1cm}
@@ -92,7 +93,7 @@
     \textbf{{Thesis}} #3
 }
 
-\newcommand*{\titletext}[7]
+\newcommand*{\titletext}[8]
 {%
     \begin{multicols}{2}
     {\ralewayextra\bfseries\fontsize{50}{50}\selectfont \hspace{13pt} #1}\vspace{-12pt}\\
@@ -103,10 +104,11 @@
     
     \begin{flushright}
     \vspace*{-0.1cm}    
-    {\ralewayextra Email} \textbf{#4}\\
+    {\ralewayextra Email} \textbf{\href{mailto:#4}{#4}}\\
     {\ralewayextra Phone} \textbf{#5}\\
-    {\ralewayextra Github} \textbf{#6}\\
-    \ifthenelse{\equal{#7}{}}{}{{\ralewayextra Website} \textbf{#7}}%
+    {\ralewayextra Github} \textbf{\href{https://www.github.com/#6}{#6}}\\
+    {\ralewayextra LinkedIn} \textbf{\href{https://www.linkedin.com/in/#7}{#7}}\\
+    \ifthenelse{\equal{#8}{}}{}{{\ralewayextra Website} \textbf{\href{https://#8}{#8}}}%
 
     \end{flushright}
     \end{multicols}
